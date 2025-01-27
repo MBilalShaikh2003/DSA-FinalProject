@@ -26,7 +26,7 @@ int count = 0;
 
 void insertMusic(Record** head) {
     Record* ptr = new Record;
-    cout << "Enter Music Name: ";
+    cout << "Enter The Music Name: ";
     cin >> ptr->name;
     ptr->next =  NULL;
     ptr->prev =  NULL;
